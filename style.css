@@ -44,3 +44,28 @@ nav li:hover a {
     display: table;
     margin: 0 auto;
 }
+
+/* rbody */
+
+.rbody {
+    margin-right: 500px;
+    margin-left: 500px;
+    text-align: left;
+}
+
+.t1 {
+    color: #9c8d8c;
+    text-decoration: underline;
+    margin-left: -40px;
+}
+
+.t2 {
+    color: #c4746e;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 10px; 
+}
