@@ -82,8 +82,13 @@ p {
     margin-left: 10px; 
 }
 
+.content ul li {
+    text-size-adjust: 20px;
+}
+
 .ft {
     color: #FFF;
+    text-align: center;
 }
 
 .footer{
