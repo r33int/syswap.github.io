@@ -118,6 +118,11 @@ p {
  
 }
 
+/* other */
+.easter {
+    text-align: center;
+}
+
 /* Moble */
 @media only screen and (max-width: 120px){
     .rbody{
