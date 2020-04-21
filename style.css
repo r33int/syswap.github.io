@@ -8,6 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    height: 100vh;
 }
 
 nav {
@@ -15,6 +16,7 @@ nav {
     background-color: #424558;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -80,16 +82,22 @@ p {
     margin-left: 10px; 
 }
 
+.ft {
+    color: #FFF;
+}
+
 .footer{
   background-color: black;
   color: white;
-  position: absolute;
   bottom: 0px; 
   left: 0px;
-  right: 0px;
   text-align: center;
   padding: 10px;
   font-size: 14px;
+  -webkit-box-shadow: 0px 200px 0px 200px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 200px 0px 200px rgba(0,0,0,1);
+  box-shadow: 0px 200px 0px 200px rgba(0,0,0,1);
+  text-decoration: none;
 }
 
 /* Specific of contact.html */
