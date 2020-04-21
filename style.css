@@ -1,4 +1,7 @@
-/* css pour le menu de navigation */
+/* other */
+
+
+/* navigation */
 
 body {
     font-family: 'Source code pro', Calibri, serif;
@@ -49,13 +52,15 @@ nav li:hover a {
     margin: 0 auto;
 }
 
-/* rbody */
+/* content */
 
-.rbody {
+.content {
     margin-right: 500px;
     margin-left: 500px;
     text-align: justify;
     margin-top: 100px;
+    min-height: 100%;
+    position: relative;
 }
 
 .t1 {
@@ -75,6 +80,19 @@ p {
     margin-left: 10px; 
 }
 
+.footer{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0px; 
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Specific of contact.html */
 .ytb {
     height: 100px;
     width: 100px;
@@ -87,13 +105,15 @@ p {
  
 }
 
-@media all and (max-width: 1024px){
+/* Moble */
+@media only screen and (max-width: 120px){
     .rbody{
         width: auto;
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
     nav{ 
         text-align: left;
     }    
 }
+
