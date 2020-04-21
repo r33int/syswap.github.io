@@ -30,6 +30,7 @@ nav a {
     text-decoration: none;
     padding: 20px 30px;
     color: #FFF;
+    text-decoration: #FFF;
 }
 
 .main-menu:hover {
@@ -40,6 +41,7 @@ nav a {
 
 nav li:hover a {
     padding: 15px 30px 20px 30px;
+    text-decoration: #FFF;
 }
 
 .table {
@@ -83,4 +85,15 @@ p {
     top: 100px;
     left: 900px;
  
+}
+
+@media all and (max-width: 1024px){
+    .rbody{
+        width: auto;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    nav{ 
+        text-align: left;
+    }    
 }
